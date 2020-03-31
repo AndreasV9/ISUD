@@ -1,0 +1,32 @@
+/* As hex codes */
+
+.color-primary-0 { color: #12315F }	/* Main Primary color */
+.color-primary-1 { color: #3C5B8A }
+.color-primary-2 { color: #244474 }
+.color-primary-3 { color: #061F46 }
+.color-primary-4 { color: #02122B }
+
+html {
+  
+}
+
+body {
+  background-color: color-primary-0;
+}
+
+.wide-pic {
+
+}
+
+.text-block {
+
+}
+
+.button {
+
+}
+
+input[type=text] {
+
+}
+
