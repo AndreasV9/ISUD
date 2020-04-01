@@ -36,7 +36,6 @@ header {
   margin: auto;
   width: 100%;
   padding: 1.5em 0 3em 0;
-  text-align: center;
   background-color: var(--primary-1);
   color:var(--primary-4);
 }
@@ -64,6 +63,7 @@ input[type=text] {
 
 input[type=button] {
   background-color: var(--primary-0);
+  color: #ffffff;
 }
 
 footer {
