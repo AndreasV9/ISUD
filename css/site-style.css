@@ -23,7 +23,27 @@ header {
 }
 
 header ul {
-  
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:var(--primary-3);
+}
+
+header li {
+  float:left;
+}
+
+header a {
+  display: block;
+  color:#ffffff;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+
+header li:hover {
+  background-color: var(--primary-4);
 }
 
 .wide-pic-section {
