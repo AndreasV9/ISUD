@@ -1,0 +1,98 @@
+
+:root {
+  --primary-0: #12315F; /* Main Primary color */
+  --primary-1: #3C5B8A;
+  --primary-2: #244474;
+  --primary-3: #061F46;
+  --primary-4: #02122B;
+}
+
+html {
+  
+}
+
+body {
+
+}
+
+header {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: #c2c2c2;
+}
+
+header ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:var(--primary-3);
+}
+
+header li {
+  float:left;
+}
+
+header a {
+  display: block;
+  color:#ffffff;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+
+header li:hover {
+  background-color: var(--primary-4);
+}
+
+.wide-pic-section {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+}
+
+.text-block-section {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+  padding: 1.5em 0 3em 0;
+  background-color: var(--primary-1);
+  color:var(--primary-4);
+}
+
+.text-block-section p {
+  font-size: 1em;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 90%;
+  margin-top: 1em;
+  padding: .6em;
+  font-size: 1em; /* 16px */
+  border: none;
+  border-radius: 0.3em;
+  -webkit-appearance: none;
+}
+
+input[type=text] {
+  background-color: #dfdfdf;
+}
+
+input[type=button] {
+  background-color: var(--primary-0);
+  color: #ffffff;
+}
+
+footer {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+}
