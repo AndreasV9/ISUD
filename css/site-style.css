@@ -19,8 +19,11 @@ header {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  height: 10em;
   background-color: #c2c2c2;
+}
+
+header ul {
+  
 }
 
 .wide-pic-section {
