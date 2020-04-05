@@ -9,6 +9,7 @@
   --primary-2: #244474;
   --primary-3: #061F46;
   --primary-4: #02122B;
+  --secondary-0: #B3C4DD;
 }
 
 html {
@@ -73,6 +74,10 @@ header li:hover {
 
 .text-block-section p {
   font-size: 1em;
+}
+
+#about-title {
+ font-weight: bold; 
 }
 
 input {
@@ -141,3 +146,4 @@ footer {
   text-align: center;
   padding:1em;
 } 
+
