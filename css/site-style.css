@@ -67,6 +67,10 @@ header li:hover {
   font-size: 1em;
 }
 
+#about-title {
+ font-weight: bold; 
+}
+
 input {
   display: block;
   box-sizing: border-box;
