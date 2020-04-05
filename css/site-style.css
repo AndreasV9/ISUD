@@ -26,6 +26,7 @@ html {
 }
 
 body {
+  background-color: var(--primary-1);
   font-family: 'Barlow', sans-serif;
   color:#ffffff;
 }
@@ -131,7 +132,6 @@ input[type=button]:hover {
   position: relative;
   width: 100%;
   background-size: cover;
-  background-color: aquamarine;
 }
 
 .site-page-box:hover {
@@ -141,6 +141,8 @@ input[type=button]:hover {
 .site-page-box-img {
   box-sizing: border-box;
   width:100%;
+  filter: blur(.05em);
+
 }
 
 .site-page-box p {
@@ -150,11 +152,11 @@ input[type=button]:hover {
   padding: 1em;
   position: absolute;
   width: 100%;
-  height:100%;
-  transform: translate(0%, -50%);
+  height: 100%;
+  transform: translate(0%, -75%);
   font-family: 'DM Serif Display', serif;
   color:#ffffff;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 }
 
