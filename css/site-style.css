@@ -114,22 +114,20 @@ input[type=button]:hover {
   background-color: var(--primary-3);
 }
 
+#site-page-box-section a {
+  text-decoration: none;
+}
+
 .site-page-box {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  position: relative;
   width:100%;
-  background-color: aquamarine;
+  background-color: var(--primary-2);
 }
 
 .site-page-box:hover {
-  
-}
-
-.site-page-box-img {
-  box-sizing: border-box;
-  width:100%;
+  background-color: var(--primary-0);
 }
 
 .site-page-box p {
@@ -137,13 +135,8 @@ input[type=button]:hover {
   box-sizing: border-box;
   margin: auto;
   padding:1em;
-  font-size:2em;
-  position: absolute;
-  width:100%;
-  height:100%;
-  transform: translate(0%, -100%);
+  font-size:1.8em;
   color:#ffffff;
-  background-color: rgba(189, 119, 255, 0.192);
 }
 
 footer {
