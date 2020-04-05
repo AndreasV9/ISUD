@@ -119,7 +119,8 @@ input[type=button]:hover {
   box-sizing: border-box;
   margin: auto;
   position: relative;
-  width:100%;
+  width: 100%;
+  background-size: cover;
   background-color: aquamarine;
 }
 
@@ -136,14 +137,14 @@ input[type=button]:hover {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  padding:1em;
-  font-size:2em;
+  padding: 1em;
+  font-size: 2em;
+  text-align: center;
   position: absolute;
-  width:100%;
+  width: 100%;
   height:100%;
-  transform: translate(0%, -100%);
+  transform: translate(0%, -50%);
   color:#ffffff;
-  background-color: rgba(189, 119, 255, 0.192);
 }
 
 footer {
