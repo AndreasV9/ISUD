@@ -55,6 +55,9 @@ header img {
   width:2em;
   float:right;
   padding: 0em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wide-pic-section {
