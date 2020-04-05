@@ -1,8 +1,16 @@
 
-/* Modular Scale 
+/* MODULAR SCALE 
  * https://www.modularscale.com/?16&px&1.618 
  */
 
+ /* FONTS
+  * Body
+  *   font-family: 'Barlow', sans-serif;
+  * Title
+  *   font-family: 'DM Serif Display', serif;
+  */
+
+  /* VARIABLES */
 :root {
   --primary-0: #12315F; /* Main Primary color */
   --primary-1: #3C5B8A;
@@ -12,12 +20,14 @@
   --secondary-0: #B3C4DD;
 }
 
+/* GENERAL */
 html {
   
 }
 
 body {
-
+  font-family: 'Barlow', sans-serif;
+  color:#ffffff;
 }
 
 header {
@@ -69,7 +79,6 @@ header li:hover {
   width: 100%;
   padding: 1.5em;
   background-color: var(--primary-1);
-  color:var(--primary-4);
 }
 
 .text-block-section p {
@@ -91,6 +100,7 @@ input {
   border: none;
   border-radius: 0.3em;
   -webkit-appearance: none;
+  color:var(--primary-3);
 }
 
 input {
@@ -138,13 +148,14 @@ input[type=button]:hover {
   box-sizing: border-box;
   margin: auto;
   padding: 1em;
-  font-size: 2em;
-  text-align: center;
   position: absolute;
   width: 100%;
   height:100%;
   transform: translate(0%, -50%);
+  font-family: 'DM Serif Display', serif;
   color:#ffffff;
+  font-size: 2em;
+  text-align: center;
 }
 
 footer {
@@ -155,4 +166,3 @@ footer {
   text-align: center;
   padding:1em;
 } 
-
