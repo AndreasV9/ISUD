@@ -1,4 +1,8 @@
 
+/* Modular Scale 
+ * https://www.modularscale.com/?16&px&1.618 
+ */
+
 :root {
   --primary-0: #12315F; /* Main Primary color */
   --primary-1: #3C5B8A;
@@ -54,12 +58,16 @@ header li:hover {
   width: 100%;
 }
 
+.wide-pic {
+  width: 100%;
+}
+
 .text-block-section {
   display: block;
   box-sizing: border-box;
   margin: auto;
   width: 100%;
-  padding: 1.5em 0 3em 0;
+  padding: 1.5em;
   background-color: var(--primary-1);
   color:var(--primary-4);
 }
@@ -69,7 +77,7 @@ header li:hover {
 }
 
 #about-title {
- font-weight: bold; 
+ font-weight: bold;
 }
 
 input {
@@ -85,7 +93,7 @@ input {
   -webkit-appearance: none;
 }
 
-input[type=text] {
+input {
   background-color: #dfdfdf;
 }
 
@@ -94,10 +102,49 @@ input[type=button] {
   color: #ffffff;
 }
 
+input[type=button]:hover {
+  background-color:var(--primary-1);
+}
+
+#site-page-box-section {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+  background-color: var(--primary-3);
+}
+
+#site-page-box-section a {
+  text-decoration: none;
+}
+
+.site-page-box {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width:100%;
+  background-color: var(--primary-2);
+}
+
+.site-page-box:hover {
+  background-color: var(--primary-0);
+}
+
+.site-page-box p {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  padding:1em;
+  font-size:1.8em;
+  color:#ffffff;
+}
+
 footer {
   display: block;
   box-sizing: border-box;
   margin: auto;
   margin-top: 1em;
   text-align: center;
-}
+  padding:1em;
+} 
+
