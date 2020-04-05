@@ -125,6 +125,10 @@ input[type=button]:hover {
   background-color: var(--primary-3);
 }
 
+#site-page-box-section a {
+  text-decoration: none;
+}
+
 .site-page-box {
   display: block;
   box-sizing: border-box;
@@ -142,7 +146,12 @@ input[type=button]:hover {
   box-sizing: border-box;
   width:100%;
   filter: blur(.05em);
+  width:100%;
+  background-color: var(--primary-2);
+}
 
+.site-page-box:hover {
+  color:purple;
 }
 
 .site-page-box p {
