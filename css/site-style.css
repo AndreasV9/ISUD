@@ -1,4 +1,8 @@
 
+/* Modular Scale 
+ * https://www.modularscale.com/?16&px&1.618 
+ */
+
 :root {
   --primary-0: #12315F; /* Main Primary color */
   --primary-1: #3C5B8A;
@@ -53,12 +57,16 @@ header li:hover {
   width: 100%;
 }
 
+.wide-pic {
+  width: 100%;
+}
+
 .text-block-section {
   display: block;
   box-sizing: border-box;
   margin: auto;
   width: 100%;
-  padding: 1.5em 0 3em 0;
+  padding: 1.5em;
   background-color: var(--primary-1);
   color:var(--primary-4);
 }
@@ -80,7 +88,7 @@ input {
   -webkit-appearance: none;
 }
 
-input[type=text] {
+input {
   background-color: #dfdfdf;
 }
 
@@ -89,10 +97,47 @@ input[type=button] {
   color: #ffffff;
 }
 
+input[type=button]:hover {
+  background-color:var(--primary-1);
+}
+
+#site-page-box-section {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+  background-color: var(--primary-3);
+}
+
+.site-page-box {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width:100%;
+  background-color: aquamarine;
+}
+
+.site-page-box:hover {
+  
+}
+
+.site-page-box-img {
+  width:100%;
+}
+
+.site-page-box p {
+  padding:1em;
+  font-
+  background-color: rgba(255, 255, 255, 0.561);
+  color:var(--primary-4);
+  
+}
+
 footer {
   display: block;
   box-sizing: border-box;
   margin: auto;
   margin-top: 1em;
   text-align: center;
-}
+  padding:1em;
+} 
