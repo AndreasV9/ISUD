@@ -9,22 +9,21 @@
   * Title
   *   font-family: 'DM Serif Display', serif;
   */
-
-  /* VARIABLES */
-:root {
-  --primary-0: #12315F; /* Main Primary color */
-  --primary-1: #3C5B8A;
-  --primary-2: #244474;
-  --primary-3: #061F46;
-  --primary-4: #02122B;
-  --secondary-0: #B3C4DD;
-}
+  
 
 /* GENERAL */
 html {
   line-height: 1.2em;
   font-family: 'Barlow', sans-serif;
   font-size: 16px; 
+
+  /* VARIABLES */
+  --primary-0: #12315F; /* Main Primary color */
+  --primary-1: #3C5B8A;
+  --primary-2: #244474;
+  --primary-3: #061F46;
+  --primary-4: #02122B;
+  --secondary-0: #B3C4DD;
 }
 
 body {
