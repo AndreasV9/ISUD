@@ -9,7 +9,7 @@
   * Title
   *   font-family: 'DM Serif Display', serif;
   */
-  
+
 
 /* GENERAL */
 html {
@@ -35,7 +35,21 @@ header {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  background-color: #c2c2c2;
+  background-color: #061F46;
+}
+
+#logo {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+  background-color: darkorange;
+}
+
+#logo img {
+  width:4.236em;
+  height:4.236em;
+  float:left;
 }
 
 header ul {
@@ -86,7 +100,7 @@ header img {
   box-sizing: border-box;
   margin: auto;
   width: 100%;
-  padding: 1.5em;
+  padding: 1.618em;
   background-color: var(--primary-1);
 }
 
@@ -172,4 +186,5 @@ footer {
   margin-top: 1em;
   text-align: center;
   padding:1em;
+  color: #244474;
 } 
