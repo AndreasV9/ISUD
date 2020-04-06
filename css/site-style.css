@@ -22,12 +22,13 @@
 
 /* GENERAL */
 html {
-  
+  line-height: 1.2em;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px; 
 }
 
 body {
-  background-color: var(--primary-1);
-  font-family: 'Barlow', sans-serif;
+  background-color: var(--secondary-0);
   color:#ffffff;
 }
 
