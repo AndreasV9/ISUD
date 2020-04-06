@@ -1,15 +1,28 @@
 
-/* MODULAR SCALE 
+/* 
+ * MODULAR SCALE - Golden Section
  * https://www.modularscale.com/?16&px&1.618 
+ *
+ 
+ *
+ * FONTS
+ * Body:
+ * font-family: 'Barlow', sans-serif;
+ * Title:
+ * font-family: 'DM Serif Display', serif;
+ *
+
+ *
+ * COLROR SCHEME 
+ * --primary-0: #12315F;
+ * --primary-1: #3C5B8A;
+ * --primary-2: #244474;
+ * --primary-3: #061F46;
+ * --primary-4: #02122B;
+ * --secondary-0: #B3C4DD; 
+ *
  */
 
- /* FONTS
-  * Body
-  *   font-family: 'Barlow', sans-serif;
-  * Title
-  *   font-family: 'DM Serif Display', serif;
-  */
-  
 
 /* GENERAL */
 html {
@@ -20,22 +33,48 @@ html {
 
 body {
   background-color: #B3C4DD;
-  color:#ffffff;
+  color:#3C5B8A;
 }
+
+/* HEADER */
 
 header {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  background-color: #c2c2c2;
+  width: 100%;
+  background-color: #02122B;
+}
+
+#logo {
+  width: 100%;
+  height: 4.236em;
+  background-color: #061F46;
+}
+
+#logo img {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width:4.236em;
+  height:4.236em;
+  float:left;
+}
+
+h1 {
+  font-size: 1.618em;
+  color: #ffffff;
+  text-align: center;
+  height: 4.236em;
 }
 
 header ul {
-  list-style-type: none;
+  display: block;
+  box-sizing: border-box;
   margin:0;
   padding:0;
+  list-style-type: none;
   overflow: hidden;
-  background-color:#061F46;
 }
 
 header li {
@@ -51,16 +90,18 @@ header a {
 }
 
 header li:hover {
-  background-color: #02122B;
+  background-color: #12315F;
 }
 
-header img {
+#navigation img {
   margin: auto;
   display: block;
   width: 1.618em;
   float: right;
   padding: 0em;
 }
+
+/* WIDE PICTURE */
 
 .wide-pic-section {
   display: block;
@@ -73,13 +114,16 @@ header img {
   width: 100%;
 }
 
+/* TEXT BLOCK */
+
 .text-block-section {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  width: 100%;
-  padding: 1.5em;
-  background-color: #3C5B8A;
+  width: 90%;
+  padding: 1.618em;
+  background-color: #eaebee;
+  margin-top: 1em;
 }
 
 .text-block-section p {
@@ -89,6 +133,8 @@ header img {
 #about-title {
  font-weight: bold;
 }
+
+/* INPUTS */
 
 input {
   display: block;
@@ -120,12 +166,13 @@ input[type=button]:hover {
   background-color:#3C5B8A;
 }
 
+/* HOME - LINKS TO PAGES */
 #site-page-box-section {
   display: block;
   box-sizing: border-box;
   margin: auto;
   width: 100%;
-  background-color: #244474;
+  margin-top: 1em;
 }
 
 #site-page-box-section a {
@@ -136,7 +183,9 @@ input[type=button]:hover {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  width: 100%;
+  width: 90%;
+  margin-bottom: 1em;
+  background-color: #244474;
 }
 
 .site-page-box:hover {
@@ -154,8 +203,9 @@ input[type=button]:hover {
   color:#ffffff;
   font-size: 2em;
   text-align: center;
-  
 }
+
+/* FOOTER */
 
 footer {
   display: block;
@@ -164,4 +214,5 @@ footer {
   margin-top: 1em;
   text-align: center;
   padding:1em;
+  color: #244474;
 } 
