@@ -64,12 +64,11 @@ header li:hover {
 }
 
 header img {
-  width:2em;
-  float:right;
-  padding: 0em;
+  margin: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1.618em;
+  float: right;
+  padding: 0em;
 }
 
 .wide-pic-section {
@@ -93,7 +92,7 @@ header img {
 }
 
 .text-block-section p {
-  font-size: 1em;
+  font-size: 1.618em;
 }
 
 #about-title {
@@ -121,6 +120,9 @@ input {
 input[type=button] {
   background-color: var(--primary-0);
   color: #ffffff;
+  font-family: 'DM Serif Display', serif;
+  font-weight: bold;
+  letter-spacing: 0.09em;
 }
 
 input[type=button]:hover {
@@ -135,13 +137,16 @@ input[type=button]:hover {
   background-color: var(--primary-2);
 }
 
+#site-page-box-section a {
+  text-decoration: none;
+}
+
 .site-page-box {
   display: block;
   box-sizing: border-box;
   margin: auto;
   width: 100%;
 }
-
 
 .site-page-box:hover {
   background-color: var(--primary-3);
@@ -158,7 +163,7 @@ input[type=button]:hover {
   color:#ffffff;
   font-size: 2em;
   text-align: center;
-  text-decoration: none;
+  
 }
 
 footer {
