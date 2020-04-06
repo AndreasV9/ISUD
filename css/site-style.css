@@ -16,18 +16,10 @@ html {
   line-height: 1.2em;
   font-family: 'Barlow', sans-serif;
   font-size: 16px; 
-
-  /* VARIABLES */
-  --primary-0: #12315F; /* Main Primary color */
-  --primary-1: #3C5B8A;
-  --primary-2: #244474;
-  --primary-3: #061F46;
-  --primary-4: #02122B;
-  --secondary-0: #B3C4DD;
 }
 
 body {
-  background-color: var(--secondary-0);
+  background-color: #B3C4DD;
   color:#ffffff;
 }
 
@@ -43,7 +35,7 @@ header ul {
   margin:0;
   padding:0;
   overflow: hidden;
-  background-color:var(--primary-3);
+  background-color:#061F46;
 }
 
 header li {
@@ -59,7 +51,7 @@ header a {
 }
 
 header li:hover {
-  background-color: var(--primary-4);
+  background-color: #02122B;
 }
 
 header img {
@@ -87,7 +79,7 @@ header img {
   margin: auto;
   width: 100%;
   padding: 1.5em;
-  background-color: var(--primary-1);
+  background-color: #3C5B8A;
 }
 
 .text-block-section p {
@@ -109,7 +101,7 @@ input {
   border: none;
   border-radius: 0.3em;
   -webkit-appearance: none;
-  color:var(--primary-3);
+  color: #061F46;
 }
 
 input {
@@ -117,7 +109,7 @@ input {
 }
 
 input[type=button] {
-  background-color: var(--primary-0);
+  background-color: #12315F;
   color: #ffffff;
   font-family: 'DM Serif Display', serif;
   font-weight: bold;
@@ -125,7 +117,7 @@ input[type=button] {
 }
 
 input[type=button]:hover {
-  background-color:var(--primary-1);
+  background-color:#3C5B8A;
 }
 
 #site-page-box-section {
@@ -133,7 +125,7 @@ input[type=button]:hover {
   box-sizing: border-box;
   margin: auto;
   width: 100%;
-  background-color: var(--primary-2);
+  background-color: #244474;
 }
 
 #site-page-box-section a {
@@ -148,7 +140,7 @@ input[type=button]:hover {
 }
 
 .site-page-box:hover {
-  background-color: var(--primary-3);
+  background-color: #061F46;
 }
 
 .site-page-box p {
