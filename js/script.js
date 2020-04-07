@@ -4,12 +4,13 @@
 
 document.getElementById("submit_contact").onclick = validate;
 
-function validate() {
+async function validate() {
 
   var screenwidth = window.innerWidth || document.documentElement.clientWidth;
 
   // email input
-  if (!(isEmailValid(document.getElementById("email_input").value))) {
+  const email_response = await isEmailValid(document.getElementById("email_input").value);
+  if (!email_response) {
     document.getElementById("email_input").style.backgroundColor = "#ffd3d3";
     document.getElementById("email_label").innerHTML = "Please enter valid email address. <p>Example: address@site.com</p>";
     document.getElementById("email_label").style.color = "#b30000";
@@ -73,7 +74,7 @@ function validate() {
   }
 }
 
-// input value validation
+// checking if value is present in input field
 
 function isValuePresent(value) {
   if (value == "" || value == " ") {
@@ -83,7 +84,7 @@ function isValuePresent(value) {
   }
 }
 
-// email validation
+// checking if email is written in valid format
 
 function isEmailValid(email) {
   var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
