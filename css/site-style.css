@@ -44,6 +44,7 @@ header {
   margin: auto;
   width: 100%;
   background-color: #02122B;
+  padding: 0.382em;
 }
 
 #logo {
@@ -132,9 +133,26 @@ header li:hover {
 
 #about-title {
  font-weight: bold;
+ text-align: center;
 }
 
-/* INPUTS */
+/* FORM */
+
+form {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+}
+
+label {
+  display: block;
+  box-sizing: border-box;
+  margin:auto;
+  width: 90%;
+  margin-top: 1em; /* 16px */
+  font-size: 1em; /* 16px */
+}
 
 input {
   display: block;
@@ -151,7 +169,7 @@ input {
 }
 
 input {
-  background-color: #dfdfdf;
+  background-color: #eaebee;
 }
 
 input[type=button] {
