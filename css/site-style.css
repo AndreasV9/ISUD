@@ -234,3 +234,15 @@ footer {
   padding:1em;
   color: #244474;
 } 
+
+/* MEDIA QUERIES */
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Laptop/Desktop */
+@media only screen and (min-width: 1025px) {
+  
+}
