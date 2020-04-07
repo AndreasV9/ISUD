@@ -1,16 +1,15 @@
-# Spider Monkeys
 # Website Redesign
 
-# Team Members:
+## Spider Monkeys Team Members:
 
     1. Hannah Leland
     2. Andreas Vassilakos
 
-## Project Description
+### Project Description
 
     Some of the very worst designed websites you’ll come across are for banking, credit card payment, HR portals, and other non-optional websites for certain classes of customers or workers. Self-selected teams of 3 students will redesign a website assigned in class. Additionally, you will add a compelling log in page, as if this were an on-line course for sale. Your redesigned should employ sound principles of human-computer interaction, user experience, and emotional design. 
 
-## Project Goals
+### Project Goals
 
 
     * Conduct a task analysis for creating a user-centered design
@@ -22,7 +21,7 @@
     * Engage in agile, iterative web design and development within a team-based work-flow on GitHub, via pull requests and code reviews.
 
 
-## Deliverables & Milestones
+### Deliverables & Milestones
 
 
     1. Lab 5 Whole team: Create a group or join a group on Basecamp Project 2: Group Sign Up. Groups should be 3 people each. Group names should be creative. Each group member should list their GitHub username and one team member should be chosen to initiate lab 5.
@@ -32,7 +31,7 @@
     5. Final Deliverable:Whole Team: Revise your team Basecamp post under Project 2 to add links to each member's individual fork of the group GitHub repository. Individual forks should include README.md files with following:
 
   
-## Requirements
+### Requirements
 
     * All source files in UTF-8/Unicode character encoding.
     * No code-generators like WYSIWYGs, Bootstrap, or other off-the-shelf frameworks
