@@ -7,7 +7,7 @@
 
 ### Project Description
 
-    Some of the very worst designed websites you’ll come across are for banking, credit card payment, HR portals, and other non-optional websites for certain classes of customers or workers. Self-selected teams of 3 students will redesign a website assigned in class. Additionally, you will add a compelling log in page, as if this were an on-line course for sale. Your redesigned should employ sound principles of human-computer interaction, user experience, and emotional design. 
+Some of the very worst designed websites you’ll come across are for banking, credit card payment, HR portals, and other non-optional websites for certain classes of customers or workers. Self-selected teams of 3 students will redesign a website assigned in class. Additionally, you will add a compelling log in page, as if this were an on-line course for sale. Your redesigned should employ sound principles of human-computer interaction, user experience, and emotional design. 
 
 ### Project Goals
 
