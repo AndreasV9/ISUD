@@ -289,7 +289,14 @@ footer {
     margin-left: 3em;
   }
 
+  .wide-pic-section {
+    height: 40em;
+    overflow: hidden;
+  }
 
+  .wide-pic {
+    max-width: initial;
+  }
 
   #site-page-box-section {
     padding-bottom: 1.6em;
