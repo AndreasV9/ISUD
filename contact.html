@@ -30,27 +30,36 @@
   
   <!-- Wide Image Section -->
   <section class="wide-pic-section">
-    <img class="wide-pic" src="img/discuss.jpg" alt="">
+    <img class="wide-pic" src="img/discuss.jpg" alt="Professional man and woman sitting, smiling, and having a conversation.">
   </section>
 
   <!-- Content Section -->
   <section id="content-section">
 
-    <section class="text-block-section">
+    <section class="text-block-section" id="about-title">
       <p class="text-block">Get in touch with us!</p>
     </section>
     
-    <input id="email" type="email" placeholder="Your email address">
-    <input id="name" type="text" placeholder="Your name">
-    <input id="message" type="text" placeholder="Your message">
+    <form method="get" action="#null" autocomplete="on">
+      <label for="email_input" id="email_label">Email</label>
+      <input id="email_input" type="email" placeholder="Your email address">
 
-    <input id="submit" type="button" value="Send">
-
+      <label for="name_input" id="name_label">Name</label>
+      <input id="name_input" type="text" placeholder="Your name">
+      
+      <label for="message_input" id="message_label">Message</label>
+      <input id="message_input" type="text" placeholder="Your message">
+      
+      <input id="submit_contact" type="button" value="Send">
+    </form>
+    
   </section>
 
   <!-- Footer -->
   <footer>
     <p>Copyright 2020 - Spider Monkey Development LLC</p>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>

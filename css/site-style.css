@@ -50,15 +50,16 @@ header {
   width: 100%;
   height: 4.236em;
   background-color: #061F46;
+  padding: 0.382em;
 }
 
 #logo img {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  width:4.236em;
-  height:4.236em;
-  float:left;
+  width: 4.236em;
+  height: 4.236em;
+  float: left;
 }
 
 h1 {
@@ -66,27 +67,29 @@ h1 {
   color: #ffffff;
   text-align: center;
   height: 4.236em;
+  margin-top: .2em;
 }
 
 header ul {
   display: block;
   box-sizing: border-box;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   overflow: hidden;
+  font-size: 1.08em;
 }
 
 header li {
-  float:left;
+  float: left;
 }
 
 header a {
   display: block;
   color:#ffffff;
   text-align: center;
-  padding: 1em;
   text-decoration: none;
+  padding: 1em;
 }
 
 header li:hover {
@@ -96,9 +99,12 @@ header li:hover {
 #navigation img {
   margin: auto;
   display: block;
+  box-sizing: border-box;
   width: 1.618em;
-  float: right;
-  padding: 0em;
+}
+
+.social a {
+  padding: .6em;
 }
 
 /* WIDE PICTURE */
@@ -132,9 +138,26 @@ header li:hover {
 
 #about-title {
  font-weight: bold;
+ text-align: center;
 }
 
-/* INPUTS */
+/* FORM */
+
+form {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+}
+
+label {
+  display: block;
+  box-sizing: border-box;
+  margin:auto;
+  width: 90%;
+  margin-top: 1em; /* 16px */
+  font-size: 1em; /* 16px */
+}
 
 input {
   display: block;
@@ -151,7 +174,7 @@ input {
 }
 
 input {
-  background-color: #dfdfdf;
+  background-color: #eaebee;
 }
 
 input[type=button] {
@@ -167,12 +190,16 @@ input[type=button]:hover {
 }
 
 /* HOME - LINKS TO PAGES */
+
 #site-page-box-section {
   display: block;
   box-sizing: border-box;
   margin: auto;
   width: 100%;
-  margin-top: 1em;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  background-color: #4f6fa0;
 }
 
 #site-page-box-section a {
@@ -196,13 +223,12 @@ input[type=button]:hover {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  padding: 1em;
   width: 100%;
-  height: 100%;
   font-family: 'DM Serif Display', serif;
   color:#ffffff;
   font-size: 2em;
   text-align: center;
+  padding: 1em;
 }
 
 /* FOOTER */
@@ -211,8 +237,116 @@ footer {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  margin-top: 1em;
   text-align: center;
-  padding:1em;
+  margin-top: 1em;
+  padding: 2em;
   color: #244474;
 } 
+
+/* MEDIA QUERIES */
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+
+  h1 {
+    margin-top: .6em;
+    margin-left: 3em;
+    text-align: left;
+  }
+
+  .site-page-box {
+    width:70%;
+  }
+
+  #about-title {
+    width: 70%;
+  }
+
+  input {
+    width:70%;
+  }
+
+  label {
+    width:70%;
+  }
+
+  #submit_contact {
+    width:30%;
+  }
+}
+
+/* Laptop/Desktop */
+@media only screen and (min-width: 1025px) {
+  body {
+    font-size: .9em;
+  }
+
+  h1 {
+    margin-left: 3em;
+  }
+
+  .wide-pic-section {
+    height: 40em;
+    overflow: hidden;
+  }
+
+  .wide-pic {
+    max-width: initial;
+  }
+
+  #site-page-box-section {
+    padding-bottom: 1.6em;
+  }
+
+  #site-page-box-section a {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto;
+    width: 33.15%;
+    height: 14em;
+  }
+
+  .site-page-box {
+    width: 90%;
+    height: 12em;
+    padding-top: 4em;
+    margin-top: 1em;
+  }
+
+  .site-page-box p {
+    font-size: 3em;
+    padding: 0;
+  }
+
+  #about-title {
+    width: 50em;
+  }
+
+  form {
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    width: 50em;
+  }
+
+  input {
+    width: 30em;
+    font-size: 1.15em;
+  }
+
+  label {
+    width: 12em;
+    float: left;
+    font-size: 1.15em;
+  }
+
+  #submit_contact {
+    width: 8em;
+    float: right;
+    margin-right: 1em;
+  }
+}
