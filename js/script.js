@@ -26,7 +26,7 @@ function highlightCurrentPage() {
 // form validation
 //
 
-if (window.location.pathname == "/D:/itmd-362/ISUD/contact.html") {
+if (document.getElementsByTagName("title")[0].innerHTML == "ISUD - Contact") {
   document.getElementById("submit-contact").onclick = validate;
 }
 
