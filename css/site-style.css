@@ -7,9 +7,9 @@
  *
  * FONTS
  * Body:
- * font-family: 'Barlow', sans-serif;
+ * font-family: 'Barlow', Futura, Verdana, sans-serif;
  * Title:
- * font-family: 'DM Serif Display', serif;
+ * font-family: 'DM Serif Display', "Lucida Bright", Georgia, serif;
  *
 
  *
@@ -27,7 +27,7 @@
 /* GENERAL */
 html {
   line-height: 1.2em;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', Futura, Verdana, sans-serif;
   font-size: 16px; 
 }
 
@@ -68,6 +68,7 @@ h1 {
   text-align: center;
   height: 4.236em;
   margin-top: .2em;
+  font-family: 'DM Serif Display', "Lucida Bright", Georgia, serif;
 }
 
 header ul {
@@ -148,6 +149,7 @@ header li:hover {
 #about-title {
  font-weight: bold;
  text-align: center;
+ padding-bottom: 1em;
 }
 
 /* FORM */
@@ -186,7 +188,7 @@ input, textarea {
 input[type=button] {
   background-color: #12315F;
   color: #ffffff;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'DM Serif Display', "Lucida Bright", Georgia, serif;
   font-weight: bold;
   letter-spacing: 0.09em;
 }
@@ -230,7 +232,7 @@ input[type=button]:hover {
   box-sizing: border-box;
   margin: auto;
   width: 100%;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'DM Serif Display', "Lucida Bright", Georgia, serif;
   color:#ffffff;
   font-size: 2em;
   text-align: center;
@@ -272,7 +274,7 @@ footer {
     width:70%;
   }
 
-  #about-title {
+  .text-block-section {
     width: 70%;
   }
 
@@ -332,7 +334,7 @@ footer {
     padding: 0;
   }
 
-  #about-title {
+  .text-block-section {
     width: 50em;
   }
 

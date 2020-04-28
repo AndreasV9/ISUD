@@ -1,8 +1,35 @@
 //
+// conditional page styling
+//
+
+highlightCurrentPage()
+
+function highlightCurrentPage() {
+
+  // window.alert(document.getElementsByTagName("title")[0].innerHTML)
+
+  switch (document.getElementsByTagName("title")[0].innerHTML) {
+    case "ISUD - Home":
+      document.getElementById("home-nav").style.backgroundColor = "#12315F"
+      break
+    case "ISUD - About":
+      document.getElementById("about-nav").style.backgroundColor = "#12315F"
+      break
+    case "ISUD - Contact":
+      document.getElementById("contact-nav").style.backgroundColor = "#12315F"
+      break
+  }
+
+
+
+//
 // form validation
 //
 
-document.getElementById("submit-contact").onclick = validate;
+if (window.location.pathname == "/D:/itmd-362/ISUD/contact.html") {
+  document.getElementById("submit-contact").onclick = validate;
+}
+
 
 async function validate() {
 
@@ -93,4 +120,6 @@ function isEmailValid(email) {
   } else {
     return false;
   }
+}
+
 }
