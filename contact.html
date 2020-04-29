@@ -18,12 +18,12 @@
     </div>
     <div id="navigation">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="">Events</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a><img src="img/facebook.png" alt=""></a></li>
-        <li><a><img src="img/linkedin.png" alt=""></a></li>
+        <li id="home-nav"><a href="index.html">Home</a></li>
+        <li id="about-nav"><a href="about.html">About</a></li>
+        <!-- <li id="events-nav"><a href="">Events</a></li> -->
+        <li id="contact-nav"><a href="contact.html">Contact</a></li>
+        <li class="social"><a href="https://en.wikipedia.org/wiki/International_Society_for_Universal_Dialogue"><img src="img/wikipedia.png" alt="Wikipedia Icon"></a></li>
+        <li class="social"><a href="https://www.researchgate.net/search?q=International%20Society%20for%20Universal%20Dialogue"><img src="img/research.png" alt="Research Gate Icon"></a></li>
       </ul>
     </div>
   </header>
@@ -35,22 +35,23 @@
 
   <!-- Content Section -->
   <section id="content-section">
-
-    <section class="text-block-section" id="about-title">
-      <p class="text-block">Get in touch with us!</p>
+ 
+    <section class="text-block-section" >
+      <p id="about-title" class="text-block">Become part of our community!</p>
+      <p class="text-block">Join our global seminars, workshops, and annual conference. Recieve monthly newsletters full of curated conversations that are both relevant and timeless.</p>
     </section>
     
     <form method="get" action="#null" autocomplete="on">
-      <label for="email_input" id="email_label">Email</label>
-      <input id="email_input" type="email" placeholder="Your email address">
+      <label for="email-input" id="email-label">Email</label>
+      <input id="email-input" type="email" placeholder="Your email address">
 
-      <label for="name_input" id="name_label">Name</label>
-      <input id="name_input" type="text" placeholder="Your name">
+      <label for="name-input" id="name-label">Name</label>
+      <input id="name-input" type="text" placeholder="Your name">
       
-      <label for="message_input" id="message_label">Message</label>
-      <input id="message_input" type="text" placeholder="Your message">
+      <label for="message-input" id="message-label">Message</label>
+      <textarea id="message-input" placeholder="Your message" rows="5"></textarea>
       
-      <input id="submit_contact" type="button" value="Send">
+      <input id="submit-contact" type="button" value="Send">
     </form>
     
   </section>
