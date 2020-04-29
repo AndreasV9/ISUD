@@ -4,9 +4,7 @@
 
 highlightCurrentPage()
 
-function highlightCurrentPage() {
-
-  // window.alert(document.getElementsByTagName("title")[0].innerHTML)
+async function highlightCurrentPage() {
 
   switch (document.getElementsByTagName("title")[0].innerHTML) {
     case "ISUD - Home":
